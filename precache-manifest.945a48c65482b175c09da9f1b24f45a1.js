@@ -8,19 +8,19 @@ self.__precacheManifest = [
     "url": "/devbridge-php/static/js/runtime~main.208546ef.js"
   },
   {
-    "revision": "4abb9abe55097b6746ee",
-    "url": "/devbridge-php/static/js/main.4abb9abe.chunk.js"
+    "revision": "95526e296883063319c2",
+    "url": "/devbridge-php/static/js/main.95526e29.chunk.js"
   },
   {
     "revision": "00f8d224d99d311c6e97",
     "url": "/devbridge-php/static/js/2.00f8d224.chunk.js"
   },
   {
-    "revision": "4abb9abe55097b6746ee",
+    "revision": "95526e296883063319c2",
     "url": "/devbridge-php/static/css/main.3409f886.chunk.css"
   },
   {
-    "revision": "2b2d2c44a4f8e601c63b51a98550a4fc",
+    "revision": "31b12c406f8de939fde0c4ac5c077300",
     "url": "/devbridge-php/index.html"
   }
 ];
