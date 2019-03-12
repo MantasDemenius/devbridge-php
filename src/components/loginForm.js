@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import axios from 'axios';
-const API_PATH = 'http://localhost:8080/react-app/api/backend/LoginHandlerReact.php';
+const API_PATH = 'https://veinier-roof.000webhostapp.com/api/backend/LoginHandlerReact.php';
 class loginForm extends Component {
 
   constructor() {
@@ -27,15 +27,6 @@ class loginForm extends Component {
 
   handleSubmit(event){
     event.preventDefault();
-    /*const formData = new FormData();
-    formData.append('username', this.state.username);
-    formData.append('password', this.state.password);
-    axios.post('', formData)
-      .then(response => {
-    console.log(response);
-    }).catch(error => {
-    console.log("this is error", error);
-  });*/
   axios({
     method: 'post',
     url: `${API_PATH}`,
@@ -47,8 +38,6 @@ class loginForm extends Component {
     console.log(response);
     }).catch(error => {
     console.log("this is error", error);});
-
-
   }
 
 

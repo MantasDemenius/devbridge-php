@@ -1,13 +1,13 @@
 <?php
-if(isset($_POST) && !empty($_POST)){
 
-  $data = json_decode(file_get_contents("php://loginForm"), true);
-  $task = $data['username'];
-  $task2 = $data['password'];
+//These two lines pick up the POST
+$rest_json = file_get_contents("php://input");
+$_POST = json_decode($rest_json, true);
 
+//just adds them to these variables
+$username = $_POST['username'];
+$password = $_POST['password'];
 
+echo json_encode("works new shit");
 
-
-echo $_POST;
-}
  ?>
